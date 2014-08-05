@@ -7,7 +7,7 @@ This is mostly useful for single page apps that have an extra build step but you
 
 On your dokku server:
 ```sh
-git clone https://github.com/thrashr888/dokku-bower-grunt-build-plugin.git /var/lib/dokku/plugins/dokku-bower-grunt-build
+git clone https://github.com/jitheshgopan/dokku-bower-grunt-build-plugin.git /var/lib/dokku/plugins/dokku-bower-grunt-build
 ```
 
 All future deployments will run bower and grunt after a release.
