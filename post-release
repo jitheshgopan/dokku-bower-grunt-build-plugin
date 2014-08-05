@@ -7,7 +7,7 @@ cd "/app" &&
 new_path="\$(find / -name npm | tail -1 | xargs -I % sh -c "dirname %")" &&
 PATH="\$PATH:\$new_path" &&
 PATH="\$PATH:\$(npm bin)" &&
-npm install grunt-cli &&
+npm install -g grunt-cli &&
 bower --allow-root install &&
 grunt build --force
 EOF
